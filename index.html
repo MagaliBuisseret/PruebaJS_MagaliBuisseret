@@ -15,8 +15,57 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">	
 </head>
 <body>
-	
-	
+	<section class="row board">
+		<section class="col-md-4 col__izq">
+			<div class="row create">
+				<div class="col-md-offset-2 col-md-8 create__contenido">
+					<h4>Crea un nuevo Tweet</h4>
+					<form class="create__contenido--form">
+					  	<div class="form-group create__contenido--portada">
+					    	<label for="exampleInputFile">Foto de Portada</label>
+					    	<input type="file" id="exampleInputFile">
+					  	</div>
+					  	<div class="form-group create__contenido--perfil">
+					    	<label for="exampleInputFile">Foto de Perfil</label>
+					    	<input type="file" id="exampleInputFile">
+					  	</div>
+					  	<div class="form-group create__contenido--tweet">
+					    	<input type="text" class="form-control" placeholder="Escribe tu nuevo Tweet">
+					  	</div>
+					  	<div class="create__contenido--boton">
+					  		<button type="submit" class="btn btn-default">Crear</button>
+					  	</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="col-md-8 col__der">
+			<div class="row" class="tweet">
+				<div class="col-md-offset-2 col-md-8">
+					<div class="tweet__contenido">
+						<div class="tweet__contenido--portada">
+							<img src="assets/img/encargahoy.png">
+						</div>
+						<div class="tweet__contenido--perfil">
+							<img src="assets/img/magali.JPG">
+						</div>
+						<div class="tweet__contenido--texto">
+							<p>Compra en cualquier parte del mundo, aprovechando los descuentos y productos exclusivos.</p>
+						</div>
+						<a class="tweet__contenido-like" href="">
+							<i class="fas fa-heart"></i>	
+						</a>
+						<div class="tweet__contenido-contador">
+							<p>0</p>
+						</div>
+						<div class="tweet__contenido-boton">
+							<button type="submit" class="btn btn-default">Eliminar</button>	
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section>		
+	</section>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
