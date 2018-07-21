@@ -1,0 +1,80 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin:0;
+	background-color: #CACCD1;
+}
+.row{
+	margin:0;
+}
+.create{
+	margin-top: 11vh;
+}
+.tweet{
+	margin-top: 11vh;
+	background-color: white;	
+	padding: 0;
+}
+.tweet__contenido{
+	padding-top: 20px;
+	text-align: justify;
+}
+.tweet__contenido--perfil{
+	padding-right: 0;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.tweet__contenido--perfil img{
+	border-radius: 50%;
+	width: 100%;
+}
+.tweet__contenido--usuario h4{
+	margin: 0;
+}
+.tweet__contenido--texto{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tweet__contenido--texto p{
+	margin: 0;
+	padding-right: 10px;
+}
+.tweet__contenido--portada{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+}
+.tweet__contenido--portada img{
+	width: 100%;
+}
+.tweet__contenido--footer{
+	margin-top: 20px;	
+	margin-left: 120px;
+}
+.tweet__contenido-like{
+	float: left;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 10px;	
+}
+.fa-heart{
+	font-size: 300%;
+	color:#CCC;
+}
+.tweet__contenido-contador{
+	float: left;
+	padding-bottom: 20px;
+	margin-right: 70px;
+}
+.tweet__contenido-contador p{
+	font-size: 2em;
+}
+.tweet__contenido-cancel{
+	float: left;
+	padding-bottom: 20px;
+	margin-left: 70px;
+	margin-right: 20px;
+}
+.fa-times-circle{
+	font-size: 300%;
+	color:#CCC;
+}	

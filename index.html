@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<!-- Main Style -->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Font Family Google Font : Lato -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Font Awesome 5-->
@@ -18,7 +20,8 @@
 	<section class="row board">
 		<section class="col-md-4 col__izq">
 			<div class="row create">
-				<div class="col-md-offset-2 col-md-8 create__contenido">
+				<div class="col-md-offset-1 col-md-10 create__contenido">
+					<div class="thumbnail">
 					<h4>Crea un nuevo Tweet</h4>
 					<form class="create__contenido--form">
 					  	<div class="form-group create__contenido--portada">
@@ -35,32 +38,44 @@
 					  	<div class="create__contenido--boton">
 					  		<button type="submit" class="btn btn-default">Crear</button>
 					  	</div>
+					 </div>
 					</form>
 				</div>
 			</div>
 		</section>
 		<section class="col-md-8 col__der">
-			<div class="row" class="tweet">
-				<div class="col-md-offset-2 col-md-8">
-					<div class="tweet__contenido">
-						<div class="tweet__contenido--portada">
-							<img src="assets/img/encargahoy.png">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 tweet">
+					<div class="row">
+						<div class="col-md-2 tweet__contenido--perfil">
+								<img src="assets/img/magali.JPG">
 						</div>
-						<div class="tweet__contenido--perfil">
-							<img src="assets/img/magali.JPG">
+						<div class="col-md-10 tweet__contenido">
+							<div class="tweet__contenido--usuario">
+								<h4><strong>Magali Buisseret</strong></h4>
+							</div>
+							<div class="tweet__contenido--texto">
+								<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolores, magni velit fugiat quibusdam quis officiis nemo, nam eaque numquam consequatur exercitationem porro est itaque atque fugit rem quidem minima!
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolores, magni velit fugiat quibusdam quis officiis nemo, nam eaque numquam consequatur exercitationem porro est itaque atque fugit rem quidem minima!
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolores, magni velit fugiat quibusdam quis officiis nemo, nam eaque numquam consequatur exercitationem porro est itaque atque fugit rem quidem minima!
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolores, magni velit fugiat quibusdam quis officiis nemo, nam eaque numquam consequatur exercitationem porro est itaque atque fugit rem quidem minima!
+								</p>
+							</div>
+							<div class="tweet__contenido--portada">
+								<img src="assets/img/encarga.jpg">
+							</div>
+							<div class="tweet__contenido--footer">
+								<a class="tweet__contenido-like" href="#">
+									<i class="fas fa-heart"></i>	
+								</a>
+								<div class="tweet__contenido-contador">
+									<p><strong>0</strong></p>
+								</div>
+								<a class="tweet__contenido-cancel" href="#">
+									<i class="fas fa-times-circle"></i>	
+								</a>
+							</div>
 						</div>
-						<div class="tweet__contenido--texto">
-							<p>Compra en cualquier parte del mundo, aprovechando los descuentos y productos exclusivos.</p>
-						</div>
-						<a class="tweet__contenido-like" href="">
-							<i class="fas fa-heart"></i>	
-						</a>
-						<div class="tweet__contenido-contador">
-							<p>0</p>
-						</div>
-						<div class="tweet__contenido-boton">
-							<button type="submit" class="btn btn-default">Eliminar</button>	
-						</div>	
 					</div>
 				</div>
 			</div>
