@@ -20,26 +20,33 @@
 	<section class="row board">
 		<section class="col-md-4 col__izq">
 			<div class="row create">
-				<div class="col-md-offset-1 col-md-10 create__contenido">
-					<div class="thumbnail">
-					<h4>Crea un nuevo Tweet</h4>
-					<form class="create__contenido--form">
-					  	<div class="form-group create__contenido--portada">
-					    	<label for="exampleInputFile">Foto de Portada</label>
-					    	<input type="file" id="exampleInputFile">
-					  	</div>
-					  	<div class="form-group create__contenido--perfil">
-					    	<label for="exampleInputFile">Foto de Perfil</label>
-					    	<input type="file" id="exampleInputFile">
-					  	</div>
-					  	<div class="form-group create__contenido--tweet">
-					    	<input type="text" class="form-control" placeholder="Escribe tu nuevo Tweet">
-					  	</div>
-					  	<div class="create__contenido--boton">
-					  		<button type="submit" class="btn btn-default">Crear</button>
-					  	</div>
-					 </div>
-					</form>
+				<div class="col-md-offset-1 col-md-10">
+					<h4>Crea un Nuevo Tweet</h4>
+					<div class="row create__inner">
+						<div class="col-md-2 create__perfil">
+							<img src="assets/img/template.png">
+							<a class="create__contenido-add" href="#">
+								<i class="fa fa-plus-circle"></i>	
+							</a>
+						</div>
+						<div class="col-md-10 create__contenido">
+							<div class="create__contenido--usuario">
+								<input type="text" class="form-control" placeholder="Escribe tu nombre de usuario">
+							</div>
+							<div class="create__contenido--texto">
+								<input type="text" class="form-control" placeholder="Escribe tu Tweet">
+							</div>
+							<div class="create__contenido--portada">
+								<img src="assets/img/template2.png">
+								<a class="create__contenido-add" href="#">
+									<i class="fa fa-plus-circle" id="add-button"></i>	
+								</a>
+							</div>
+							<div class="create__contenido--boton">
+						  		<button type="submit" class="btn btn-default">Crear</button>
+						  	</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -48,7 +55,7 @@
 				<div class="col-md-offset-1 col-md-10 tweet">
 					<div class="row">
 						<div class="col-md-2 tweet__contenido--perfil">
-								<img src="assets/img/magali.JPG">
+							<img src="assets/img/magali.JPG">
 						</div>
 						<div class="col-md-10 tweet__contenido">
 							<div class="tweet__contenido--usuario">

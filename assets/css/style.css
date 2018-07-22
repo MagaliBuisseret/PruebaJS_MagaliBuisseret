@@ -7,7 +7,57 @@ body{
 	margin:0;
 }
 .create{
-	margin-top: 11vh;
+	margin-top: 4.5vh;
+}
+.create__inner{
+	background-color: white;
+}
+.create h4{
+	color: white;
+	font-size: 1.7em;
+}
+.create__perfil{
+	padding-right: 0;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.create__perfil img{
+	width: 100%;
+	border:solid 1px #CACCD1;
+	border-radius: 2%;
+}
+.fa-plus-circle{
+	font-size: 100%;
+	color:#CCC;
+	margin-left: 12px;
+}
+#add-button{
+	margin-left: 110px;
+}
+.create__contenido--usuario{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.create__contenido--texto input{
+	height: 20vh;
+	vertical-align: text-top;
+}
+.create__contenido--portada{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.create__contenido--portada img{
+	width: 100%;
+	border:solid 1px #CACCD1;
+	border-radius: 2%;
+}
+.create__contenido--boton{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.btn-default{
+	width: 100%;
+	background-color: #CACCD1;
 }
 .tweet{
 	margin-top: 11vh;
@@ -19,9 +69,7 @@ body{
 	text-align: justify;
 }
 .tweet__contenido--perfil{
-	padding-right: 0;
-	padding-left: 15px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 .tweet__contenido--perfil img{
 	border-radius: 50%;
