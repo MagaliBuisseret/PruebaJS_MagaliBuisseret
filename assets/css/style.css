@@ -22,7 +22,7 @@ body{
 	padding-top: 15px;
 }
 .create__perfil img{
-	width: 100%;
+	width: 40px;
 	border:solid 1px #CACCD1;
 	border-radius: 2%;
 }
@@ -39,20 +39,12 @@ body{
 	margin-bottom: 20px;
 }
 .create__contenido--texto input{
-	height: 20vh;
+	height: 30vh;
 	vertical-align: text-top;
-}
-.create__contenido--portada{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.create__contenido--portada img{
-	width: 100%;
-	border:solid 1px #CACCD1;
-	border-radius: 2%;
 }
 .create__contenido--boton{
 	width: 100%;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .btn-default{
@@ -85,14 +77,6 @@ body{
 .tweet__contenido--texto p{
 	margin: 0;
 	padding-right: 10px;
-}
-.tweet__contenido--portada{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-right: 15px;
-}
-.tweet__contenido--portada img{
-	width: 100%;
 }
 .tweet__contenido--footer{
 	margin-top: 20px;	
