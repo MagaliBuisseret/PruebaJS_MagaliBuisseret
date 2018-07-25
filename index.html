@@ -20,16 +20,25 @@
 	<section class="row board">
 		<section class="col-md-4 col-sm-12 col-xs-12 col__izq">
 			<div class="row create">
-				<div class="col-md-offset-1 col-md-10">
+				<div class="col-md-12">
 					<h4>Crea un Nuevo Tweet</h4>
 					<div class="row create__inner">
-						<div class="col-md-2 col-sm-2 col-xs-2 create__perfil">
-							<img class="img-responsive" src="assets/img/template.png">
-							<a class="create__perfil-add" href="#">
-								<i class="fa fa-plus-circle"></i>	
-							</a>
+						<div class="col-md-3 col-sm-3 col-xs-3 create__perfil">
+							<div class="create__perfil__image">
+								<img class="img-responsive" src="assets/img/foto_template.png">
+							</div>
+							<label for="image" class="create__perfil--select">
+					          <select name="image" id="perfil" class="create__select">
+					            <option value="template.png">Select</option>
+					            <option value="1.jpg">01</option>
+					            <option value="2.jpg">02</option>
+					            <option value="3.jpg">03</option>
+					            <option value="4.jpg">04</option>
+					            <option value="5.jpg">05</option>
+					          </select>
+					        </label>
 						</div>
-						<div class="col-md-10 col-sm-10 col-xs-10 create__contenido">
+						<div class="col-md-9 col-sm-9 col-xs-9 create__contenido">
 							<div class="create__contenido--usuario">
 								<input type="text" class="form-control" placeholder="Escribe tu nombre de usuario">
 							</div>
@@ -49,7 +58,7 @@
 				<div class="col-md-offset-1 col-md-10 tweet">
 					<div class="row tweet__hidden">
 						<div class="col-md-2 col-sm-2 col-xs-2 tweet__contenido--perfil">
-							<img class="img-responsive" src="assets/img/magali.JPG">
+							<img class="img-responsive" src="assets/img/foto_1.jpg">
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-10 tweet__contenido">
 							<div class="tweet__contenido--usuario">
@@ -75,9 +84,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row tweet__show">
 						<div class="col-md-2 col-sm-2 col-xs-2 tweet__contenido--perfil">
-							<img class="img-responsive" src="assets/img/magali.JPG">
+							<img class="img-responsive" src="assets/img/foto_1.jpg">
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-10 tweet__contenido">
 							<div class="tweet__contenido--usuario">

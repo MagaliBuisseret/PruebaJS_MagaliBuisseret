@@ -18,21 +18,21 @@ body{
 }
 .create__perfil{
 	padding-right: 0;
-	padding-left: 15px;
+	padding-left: 25px;
 	padding-top: 15px;
+	text-align: center;
 }
-.create__perfil img{
+.create__perfil--image{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.create__perfil--image img{
 	width: 40px;
 	border:solid 1px #CACCD1;
 	border-radius: 2%;
-}
-.fa-plus-circle{
-	font-size: 100%;
-	color:#CCC;
-	margin-left: 12px;
-}
-#add-button{
-	margin-left: 110px;
+	margin-bottom: 5px;
 }
 .create__contenido--usuario{
 	margin-top: 20px;
@@ -53,10 +53,14 @@ body{
 }
 .tweet__hidden{
 	display: none;
+	margin-top: 10px;
+	background-color: white;
+}
+.tweet__show{
+	background-color: white;
 }
 .tweet{
-	margin-top: 11vh;
-	background-color: white;	
+	margin-top: 11vh;	
 	padding: 0;
 }
 .tweet__contenido{
@@ -69,7 +73,7 @@ body{
 	height: 100px;
 }
 .tweet__contenido--perfil img{
-		
+	border-radius: 50%	
 }
 .tweet__contenido--usuario h4{
 	margin: 0;
