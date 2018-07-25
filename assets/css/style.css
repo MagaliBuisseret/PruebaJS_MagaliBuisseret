@@ -51,6 +51,9 @@ body{
 	width: 100%;
 	background-color: #CACCD1;
 }
+.tweet__hidden{
+	display: none;
+}
 .tweet{
 	margin-top: 11vh;
 	background-color: white;	
@@ -62,10 +65,11 @@ body{
 }
 .tweet__contenido--perfil{
 	padding-top: 20px;
+	width: 100px;
+	height: 100px;
 }
 .tweet__contenido--perfil img{
-	border-radius: 50%;
-	width: 100%;
+		
 }
 .tweet__contenido--usuario h4{
 	margin: 0;
