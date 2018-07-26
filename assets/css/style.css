@@ -7,32 +7,29 @@ body{
 	margin:0;
 }
 .create{
-	margin-top: 4.5vh;
+	margin-top: 5.7vh;
 }
 .create__inner{
 	background-color: white;
+}
+.create__perfil{
+	text-align: center;
+	margin: auto;
+	padding: auto;
 }
 .create h4{
 	color: white;
 	font-size: 1.7em;
 }
-.create__perfil{
-	padding-right: 0;
-	padding-left: 25px;
-	padding-top: 15px;
-	text-align: center;
-}
 .create__perfil--image{
-	width: 100px;
-	height: 100px;
-	margin-bottom: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	margin: 5px auto 5px auto;
+	width: 80px;
 }
-
-.create__perfil--image img{
-	width: 40px;
-	border:solid 1px #CACCD1;
-	border-radius: 2%;
-	margin-bottom: 5px;
+.create__select{
+	font-size: 0.9em;
 }
 .create__contenido--usuario{
 	margin-top: 20px;
@@ -40,7 +37,6 @@ body{
 }
 .create__contenido--texto input{
 	height: 30vh;
-	vertical-align: text-top;
 }
 .create__contenido--boton{
 	width: 100%;
@@ -63,38 +59,36 @@ body{
 	margin-top: 11vh;	
 	padding: 0;
 }
+.tweet__contenido--perfil{
+	margin-top: 15px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	width: 100px;
+}
 .tweet__contenido{
 	padding-top: 20px;
 	text-align: justify;
 }
-.tweet__contenido--perfil{
-	padding-top: 20px;
-	width: 100px;
-	height: 100px;
-}
-.tweet__contenido--perfil img{
-	border-radius: 50%	
-}
 .tweet__contenido--usuario h4{
 	margin: 0;
+	font-weight: bold;
 }
 .tweet__contenido--texto{
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-right: 0
 }
 .tweet__contenido--texto p{
 	margin: 0;
-	padding-right: 10px;
+	padding: auto;
 }
 .tweet__contenido--footer{
-	margin-top: 20px;	
-	margin-left: 120px;
+	padding-left: 10vw; 	
 }
 .tweet__contenido-like{
 	float: left;
-	padding-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 10px;	
+	margin: 0 40px 10px 40px;
 }
 .fa-heart{
 	font-size: 300%;
@@ -102,17 +96,14 @@ body{
 }
 .tweet__contenido-contador{
 	float: left;
-	padding-bottom: 20px;
-	margin-right: 70px;
 }
 .tweet__contenido-contador p{
 	font-size: 2em;
+	font-weight: bold;
 }
 .tweet__contenido-cancel{
 	float: left;
-	padding-bottom: 20px;
-	margin-left: 70px;
-	margin-right: 20px;
+	margin: 0 40px 10px 40px;
 }
 .fa-times-circle{
 	font-size: 300%;
@@ -120,4 +111,26 @@ body{
 }	
 .tweet__contenido-like-red{
 	color: tomato;
+}
+@media only screen and (max-width: 400px) {
+ .tweet__contenido--footer{
+	padding-left: 10vw; 	
+}
+.tweet__contenido-like{
+	margin: 0 20px 10px 20px;
+}
+.fa-heart{
+	font-size: 230%;
+}
+.tweet__contenido-contador p{
+	font-size: 1.3em;
+}
+.tweet__contenido-cancel{
+	margin: 0 20px 10px 20px;
+}
+.fa-times-circle{
+	font-size: 230%;
+
+}
+
 }

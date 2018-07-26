@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#perfil").change(function(){
         var imagen = $("#perfil option:selected").val()
-        $(".create__perfil__image").children().attr("src", "assets/img/foto_" + imagen)      
+        $(".create__perfil--image").children().attr("src", "assets/img/foto_" + imagen)      
     })
     $(".col__der").on("click", ".tweet__contenido-like", function(e){
         $(this).children().addClass("tweet__contenido-like-red");
@@ -27,9 +27,11 @@ $(document).ready(function() {
         new_tweet.find(".tweet__contenido--usuario").children().text(usuario);
         new_tweet.find(".tweet__contenido--texto").children().text(tweeter);
         new_tweet.find(".tweet__contenido-contador").children().text("0");
-        $(".create__contenido--usuario input").attr('placeholder', "Escribe tu nombre de usuario");
-        $(".create__contenido--texto input").attr('placeholder', "Escribe tu Tweet");
-        $(this).find("#perfil").val("template.png").change()
+        
+        $(".create__contenido--usuario").children().val("");
+        $(".create__contenido--texto").children().val("");
+        $(this).parentsUntil(".create").find("#perfil").val("template.png").change()
+        
         e.preventDefault();
     })
 });
